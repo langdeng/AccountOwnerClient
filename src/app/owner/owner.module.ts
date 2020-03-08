@@ -16,6 +16,9 @@ import { OwnerDetailsComponent } from './owner-details/owner-details.component';
       { path: 'details/:id', component: OwnerDetailsComponent }
     ])
   ],
+  exports:[
+    SharedModule,
+  ],
   declarations: [
     OwnerListComponent,
     OwnerDetailsComponent
